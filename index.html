@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>111</title>
+		<style type="text/css">
+			*{list-style:none;outline:none;}
+/*全局控制*/
+body{font-family:"微软雅黑";text-align: center;}
+
+			
+			}	
+			p:nth-child(odd){
+				color: red;
+				font-size: 30px;
+			}
+			 .bg-video{
+			 	position:absolute;
+			 	top:50%;left:50%;width:100%;
+			 	transform:translate(-50%,-50%);
+			 	z-index:-1;
+			}
+			/*.background{
+				margin:2000px auto;
+				width: 2000px;
+				height: 2000px;
+				background=red;
+				position:absolute;
+				z-index:0;
+			}*/
+			.a1{
+				margin-top:10px;
+				width: 50px;
+				height: 50px;
+				 border-radius:200px; 
+				 
+			}
+			.a2{
+				border:5px solid #000000;
+				
+				}
+			.a3{
+				margin: 5px auto;
+				width: 1050px;
+				height: 620px;
+			    /*border:3px solid black;*/
+				}
+				.a4{
+					width: 1000px;
+					height: 10px;
+					margin: 250px auto;
+				}
+			
+		</style>
+	</head>
+	<body bgcolor="#CC6633">
+		<audio controls="controls" autoplay loop>
+			<source src="voice/rain.mp3" ></source>
+		</audio>
+		<div>
+			<video class="bg-video" src="video/wallpaper ver.2.mp4" id="video1" autoplay loop></video><br />
+		</div>
+		<div>
+			<div class="a4">
+			<img class="a1" src="img/headpaper.jpg" align="left" />
+			<h1 style="font-size:50px;" align="left">しおんさんの絵画</h1>
+			</div>
+			<div class="background">
+				
+			</div>
+			<div class="a3">
+				<div>
+					<a href="img/1.jpg" target="_blank">
+				<img href="img/1.jpg" class="a2" src="img/1.jpg" width="500px" align="left"/>
+				</a>
+				<a href="img/img/53cd4805c055d09a09a32fa22c919480.jpg" target="_blank"><img class="a2" src="img/53cd4805c055d09a09a32fa22c919480.jpg" width="500px" align="right"/>
+				</a>
+				<br />
+				</div>
+			</div>
+			<div class="a5">
+				<a href="img/6614024b7a804c5c1d0fe11946362edb.jpg" target="_blank">
+					<img class="a2" src="img/6614024b7a804c5c1d0fe11946362edb.jpg"  width="500px"/></a>
+				<a href="img/75e88415cbb408ec38c78ae5ddb553fd.jpg" target="_blank">
+					<img class="a2" src="img/75e88415cbb408ec38c78ae5ddb553fd.jpg"  width="500px"/></a>
+				<a href="img/a253160fd3a1e75148ce11f01987d1be.jpg" target="_blank">
+					<img class="a2" src="img/a253160fd3a1e75148ce11f01987d1be.jpg" width="500px"  /></a>
+				<a href="img/2.png" target="_blank">
+					<img class="a2" src="img/2.png" width="500px" /></a>
+				<a href="img/3.png" target="_blank">
+					<img class="a2" src="img/3.png" width="500px"/></a>
+				<br /><br /><br />
+				<a href="img/7ae1bcf3845471a170e9c3e05f646dfe.jpg" target="_blank">
+					<img class="a2" src="img/7ae1bcf3845471a170e9c3e05f646dfe.jpg"  width="1600px"/></a>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var myVideo=document.getElementById("video1");
+			function playPause(){
+				if(myVideo.paused)
+				myVideo.play();
+				else myVideo.pause();
+			}
+			function makeBig(){
+				myVideo.width=560;
+			}
+		</script>
+	</body>
+	
+</html>
